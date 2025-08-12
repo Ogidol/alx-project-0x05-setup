@@ -9,3 +9,9 @@ export interface PropertyProps {
   image: string;
   discount?: string;
 }
+
+import * as React from "react";
+
+export interface ReactComponentProps {
+  children: React.ReactNode;
+}
